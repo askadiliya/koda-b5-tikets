@@ -8,6 +8,7 @@ import GG233 from "../assets/img/GG233.svg";
 import GG235 from "../assets/img/GG235.svg";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import  Subscribe from "../components/Subscribe"
 
 function Home() {
   return (
@@ -85,6 +86,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Subscribe/>
       <Footer/>
     </>
   );
